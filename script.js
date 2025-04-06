@@ -3,7 +3,7 @@ const cat = document.getElementById('popcat');
 const counter = document.getElementById('counter');
 
 cat.addEventListener('mousedown', () => {
-  cat.src = '..//IMG_6688.PNG'; // ภาพแมวอ้าปาก
+  cat.src = './IMG_6688.PNG'; // ภาพแมวอ้าปาก
   count++;
   updateText()
 });
